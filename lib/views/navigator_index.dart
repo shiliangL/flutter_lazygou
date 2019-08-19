@@ -12,6 +12,7 @@ class TabsNavigator extends StatefulWidget {
 }
 
 class _TabsNavigatorState extends State<TabsNavigator> {
+
   int _currentIndex = 1;
   List _appBarText = ['首页', '好物', '拓展', '社区', '我的'];
   List _widgetPage = <Widget>[
@@ -22,6 +23,15 @@ class _TabsNavigatorState extends State<TabsNavigator> {
     MyCenter(),
   ];
 
+  @override
+  void initState() {
+    super.initState();
+  }
+  
+  @override
+  void dispose() {
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {

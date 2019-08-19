@@ -10,7 +10,7 @@ class _MyCenterState extends State<MyCenter> {
   @override
   Widget build(BuildContext context) {
     return Container(
-       child: Text('个人中心'),
+       child:Image.network('http://pic.baike.soso.com/p/20130828/20130828161137-1346445960.jpg'),
     );
   }
 }
